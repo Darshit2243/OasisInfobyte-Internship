@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    background-color: #ffffff;
+    font-family:Sans-serif;
+    outline:none;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+    background-color: #ffffff;
+}
+
+html,
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    background-image: url("bgimage1.jpg");
+    align-items: center;
+    justify-content: center;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:focus {
+    outline: none;
+}
+
+.calculator {
+    background: #2B1B17;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .75rem;
+    width: 325px;
+    border: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.screen {
+    grid-column: 1 / 5;
+    border-radius: 20px;
+    font-size: 2rem;
+    height: 6rem;
+    color: #2B1B17;
+    background:  #F5F5F5;
+    text-align: end;
+    padding: .5rem;
+}
+
+::placeholder {
+    color: #2B1B17;
+}
+
+.symbol,
+.number,
+.enter,
+.s_symbol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    aspect-ratio: 1;
+    font-size: 1.25rem;
+    color: #fff;
+    border-radius: 50%;
+    transition: .15s ease;
+}
+
+.symbol {
+    background: #0041C2;
+    color:rgb(244, 241, 241);
+}
+
+.symbol:hover {
+    background: #FDEEF4;
+    color:#333849;
+}
+
+.number {
+    background: #FFFFE0;
+    color:#2B1B17;
+}
+
+.number:hover {
+    background: #333849ac;
+    color:#fff;
+}
+.enter{
+    background: #E41B17;
+    color:#FDEEF4;
+}
+.enter:hover{
+    background:#00FA9A;
+    color:#2B1B17;
+}
+.s_symbol{
+    background: #93917C;
+    color: #2B1B17;
+}
+.s_symbol:hover{
+    background:#E41B17;
+    color:aliceblue;
+}

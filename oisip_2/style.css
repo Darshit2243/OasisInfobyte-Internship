@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+body{
+    font-family: 'Poppins', sans-serif !important;
+	margin: 0;
+	padding: 0;
+}
+.slider{
+	width:600px;
+	height:400px;
+	background-color:black;
+	background: url(msd1.jpg);
+	margin:100px auto;
+	box-shadow: rgb(255, 255, 255) 0px 19px 38px, rgb(248, 245, 245) 0px 15px 12px;
+	animation: slide 60s infinite;
+	background-size: 100% 100%;	
+}
+@keyframes slide{
+	0%{
+		background: url(msd1.jpg);
+		background-size: 100% 100%;
+	}
+	5%{
+		background: url(msd\ pic.jpg);
+		background-size: 100% 100%;
+	}
+	10%{
+		background: url(msd2.jpg);
+		background-size: 100% 100%;
+	}
+	15%{
+		background: url(msd7.jpg);
+		background-size: 100% 100%;
+	}
+	20%{
+		background: url(msd3.jpg);
+		background-size: 100% 100%;
+	}
+	25%{
+		background: url(msd9.jpg);
+		background-size: 100% 100%;
+	}
+	30%{
+		background: url(msd4.jpg);
+		background-size: 100% 100%;
+	}
+	35%{
+		background: url(msd12.jpg);
+		background-size: 100% 100%;
+	}
+	40%{
+		background: url(msd5.jpg);
+		background-size: 100% 100%;
+	}
+	45%{
+		background: url(msd16.jpg);
+		background-size: 100% 100%;
+	}
+	50%{
+		background: url(msd6.jpg);
+		background-size: 100% 100%;
+	}
+	55%{
+		background: url(msd17.jpg);
+		background-size: 100% 100%;
+	}
+	60%{
+		background: url(msd14.jpg);
+		background-size: 100% 100%;
+	}
+	65%{
+		background: url(msd18.jpg);
+		background-size: 100% 100%;
+	}
+	70%{
+		background: url(msd8.jpg);
+		background-size: 100% 100%;
+	}
+	75%{
+		background: url(msd19.jpg);
+		background-size: 100% 100%;
+	}
+	80%{
+		background: url(msd13.jpg);
+		background-size: 100% 100%;
+	}
+	85%{
+		background: url(msd20.jpg);
+		background-size: 100% 100%;
+	}
+	90%{
+		background: url(msd10.jpg);
+		background-size: 100% 100%;
+	}
+	95%{
+		background: url(msd21.jpg);
+		background-size: 100% 100%;
+	}
+	100%{
+		background: url(msd11.jpg);
+		background-size: 100% 100%;
+	}
+}
+#myvideo1 {
+    border: 1px solid whitesmoke;
+    box-shadow: 20px 20px 20px rgba(39, 12, 240, 0.5);
+}
+#myvideo2{
+    border: 1px solid whitesmoke;
+    box-shadow: 20px 20px 20px rgba(39, 12, 240, 0.5);
+}
+
+.container2 {
+    text-align: center;
+}
+p{
+	color:aliceblue;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+.btn-primary{
+    box-shadow: none ;
+    padding: 8px 25px;
+    border-radius: 2px ;
+    border: 2px solid #100942;
+    color: #dbd8f4 ;
+    background: none;
+
+}
+.btn-primary:hover{
+    background: #e3e1ef ;
+    color: rgb(22, 102, 183) ;
+    border: 2px solid #fff ;
+}
+
+#life{
+    padding: 40px 0;
+    color: #7767f0;
+}
+.title::before{
+    content: '';
+	font-size: 30px;
+    background: #968af0;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50px;
+    transform: translateY(46px);
+}
+ul{
+    list-style-type: none;
+    font-weight: lighter;
+}
+ul li{
+    padding: 3px;
+    font-weight: 300;
+    color: rgb(250, 245, 245);
+}
+.carousel-caption {
+	padding-bottom: 230px;
+}
+.carousel-caption h2 {
+	font-size: 50px;
+	font-family: impact;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.carousel-caption p {
+	font-size: 18px;
+	width: 70%;
+	margin: 20px auto;
+	line-height: 1.9;
+}
+.carousel-caption a {
+	background: deepskyblue;
+	color: #fff;
+	padding: 10px 25px;
+	display: inline-block;
+	border-radius: 50px;
+	text-transform: uppercase;
+}
+.carousel .carousel-control {
+	bottom: auto;
+	width: 100%;
+	height: 15%;
+	background: none;
+}
+.carousel .carousel-control.right {
+	top: auto;
+	bottom: 0;
+	background: none;
+}
+.carousel .carousel-indicators {
+	bottom: auto;
+	top: 50%;
+	left: auto;
+	right: 10px;
+	width: 14px;
+	margin: 0;
+	transform: translateY(-50%);
+}
+.carousel .carousel-inner>.item {
+	left: 0;
+	top: 0;
+}
+.carousel .carousel-inner>.item>img {
+	width: 100%;
+}
+.carousel .carousel-inner>.item.next, .carousel .carousel-inner>.item.active.right {
+	transform: translate3d(0, 100%, 0);
+	top: 0;
+}
+.carousel .carousel-inner>.item.prev, .carousel .carousel-inner>.item.active.left {
+	transform: translate3d(0, -100%, 0);
+	top: 0;
+}
+.carousel .carousel-inner>.item.next.left, .carousel .carousel-inner>.item.prev.right, .carousel .carousel-inner>.item.active {
+	transform: translate3d(0, 0, 0);
+	top: 0;
+}
+.carousel .carousel-inner>.active, .carousel .carousel-inner>.next.left, .carousel .carousel-inner .prev.right {
+	top: 0;
+}
+.carousel .carousel-inner>.next, .carousel .carousel-inner>.active.right {
+	top: 100%;
+	left: 0;
+}
+.carousel .carousel-inner>.prev, .carousel .carousel-inner>.active.left {
+	top: -100%;
+	left: 0;
+}
+#carousel-example-generic {
+	height: 100vh;
+	width: 100%;
+}
+.carousel .carousel-inner>.item>img {
+	width: 100%;
+	height: 100vh;
+}
+@media only screen and (max-width: 991px) {
+	.carousel-caption {
+		padding-bottom: 340px;
+	}
+	.carousel-caption h2 {
+		font-size: 40px;
+		letter-spacing: 0;
+	}
+}
+@media only screen and (max-width: 767px) {
+    .carousel-caption p {
+		font-size: 12px;
+		width: 95%;
+		margin: 10px auto;
+	}
+	.carousel-caption {
+		padding-bottom: 120px;
+	}
+	.carousel-caption h2 {
+		font-size: 20px;
+		letter-spacing: 0;
+	}
+
+}
